@@ -1,0 +1,79 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crash reports / logs
+sysinfo.txt
+*.log
+crashlytics-build.properties
+
+# FMOD cache
+/Assets/Plugins/FMOD/Cache/
+/Assets/Plugins/FMOD/Cache.meta
+
+# OS files
+.DS_Store
+Thumbs.db
+~$*
+
+# Raw audio at project root (not used by the project)
+/Audio1.wav
+/audio2.wav
+
+# Participant data (not shared, see README)
+/Assets/Results/
+/Assets/Results.meta
+/Assets/ResultsStudy/
+/Assets/ResultsStudy.meta
+/Assets/FingerKaraokeStrokeData/
+/Assets/FingerKaraokeStrokeData.meta
+/Assets/FingerKaraokeStrokeDataold/
+/Assets/FingerKaraokeStrokeDataold.meta
+/Assets/FingerKaraokeStrokeDataSAVED/
+/Assets/FingerKaraokeStrokeDataSAVED.meta
+/Assets/FolderAnalysis/
+/Assets/FolderAnalysis.meta
+/Assets/FolderAnalysis.zip
+/Assets/FolderAnalysis.zip.meta
+
+# Analysis folder: keep only the notebooks
+/Assets/FolderAnalysis_RK_Healthy/*
+!/Assets/FolderAnalysis_RK_Healthy/codeDeposit/
+/Assets/FolderAnalysis_RK_Healthy/codeDeposit/*
+!/Assets/FolderAnalysis_RK_Healthy/codeDeposit/analysis/
+!/Assets/FolderAnalysis_RK_Healthy/codeDeposit.meta
+!/Assets/FolderAnalysis_RK_Healthy/codeDeposit/analysis.meta
+
+# Asset Store pack, not used in any scene
+/Assets/Polytope Studio/
+/Assets/Polytope Studio.meta

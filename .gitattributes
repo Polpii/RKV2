@@ -1,0 +1,2 @@
+# Notebook outputs are removed on commit (they print participant data)
+*.ipynb filter=stripoutput

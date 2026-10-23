@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RK1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/PageAcceuil.unity
+    guid: 92d221d62911ba549a0ccc80053ebe87
+  - enabled: 1
+    path: Assets/Scenes/PatientInfo.unity
+    guid: c762a92f80a7d5647b530b62e83c7879
+  - enabled: 1
+    path: Assets/Scenes/Consignes.unity
+    guid: 32298993699779a4e97a2f13ee42bf10
+  - enabled: 1
+    path: Assets/Scenes/Consignes2.unity
+    guid: ceaace499da50be4e82935a5adad0a69
+  - enabled: 1
+    path: Assets/Scenes/Consignes2_2.unity
+    guid: d3f1a58dfc4d3b345b8e7112471be57a
+  - enabled: 1
+    path: Assets/Scenes/Consignes3.unity
+    guid: 3bfc6ce10aa6ad743a1415b6dac77089
+  - enabled: 1
+    path: Assets/Scenes/Consignes3_2.unity
+    guid: 2e4e10ee43aa5cd488c16a9a1c37abc3
+  - enabled: 1
+    path: Assets/Scenes/Conseils.unity
+    guid: 46ad5e13a7679674094423c249844875
+  - enabled: 1
+    path: Assets/Scenes/Training.unity
+    guid: 35a88df6793766b4d9a6f1b203654c2c
+  - enabled: 1
+    path: Assets/Scenes/Training2.unity
+    guid: badeaf37e98ee4940a51578dc53a6510
+  - enabled: 1
+    path: Assets/Scenes/Training3.unity
+    guid: 694007539651be647a902673fe61b843
+  - enabled: 1
+    path: Assets/Scenes/ReflexTest.unity
+    guid: 569ce56505eda584bbf382b0cea8500a
+  - enabled: 1
+    path: Assets/Scenes/ReflexTestNext.unity
+    guid: 74b32a3ede1f1b4499cfd3ecf62f3927
+  - enabled: 1
+    path: Assets/Scenes/Lancement.unity
+    guid: b3e8edd2bd1a50540b8ce58659fa296c
+  - enabled: 1
+    path: Assets/Scenes/Balou_B.unity
+    guid: d49864f5a34fad847be4f5e8db93ae63
+  - enabled: 1
+    path: Assets/Scenes/Balou_BN.unity
+    guid: 4072aa275dac3f44ca7b35f7c38d35da
+  - enabled: 1
+    path: Assets/Scenes/Balou_M.unity
+    guid: 3fe07d9971e0e49428e4fab38c65bcc8
+  - enabled: 1
+    path: Assets/Scenes/Balou_MN.unity
+    guid: 1fd9a40599d8577479a3cea4e4ad440c
+  - enabled: 1
+    path: Assets/Scenes/Balou_S.unity
+    guid: 8bf08bb64c62dbf4985727000023adc5
+  - enabled: 1
+    path: Assets/Scenes/Balou_SN.unity
+    guid: eab262997841fc44997673545abcf712
+  - enabled: 1
+    path: Assets/Scenes/Balou_SM.unity
+    guid: 1a4fb37abf55c474096641315a4a2f8b
+  - enabled: 1
+    path: Assets/Scenes/Balou_SM2.unity
+    guid: ee310f68cc4ea4d4b9d6b03a6f91755a
+  - enabled: 1
+    path: Assets/Scenes/Balou_SMN.unity
+    guid: 861c65712d47e73499049bbe38ba4e8b
+  - enabled: 1
+    path: Assets/Scenes/Papaoutai_B.unity
+    guid: 4c3f4520b9900bd41898157cde12a3b1
+  - enabled: 1
+    path: Assets/Scenes/Papaoutai_BN.unity
+    guid: d4610e33804e2274889c07e68f50609d
+  - enabled: 1
+    path: Assets/Scenes/Papaoutai_M.unity
+    guid: f779a8bd040489f44b39f5630cff4322
+  - enabled: 1
+    path: Assets/Scenes/Papaoutai_MN.unity
+    guid: 5544e455d31b4da4dacd64870502fd46
+  - enabled: 1
+    path: Assets/Scenes/Papaoutai_S.unity
+    guid: 1533613c97b803f4fb1644bb13615715
+  - enabled: 1
+    path: Assets/Scenes/Papaoutai_SN.unity
+    guid: e922bb10a864ce74880b23ad563d4a53
+  - enabled: 1
+    path: Assets/Scenes/Papaoutai_SM.unity
+    guid: 594afe9607e24bd46990f25506ec735c
+  - enabled: 1
+    path: Assets/Scenes/Papaoutai_SMN.unity
+    guid: 24f0dd4d459fe1a4a9c432b68da80841
+  - enabled: 1
+    path: Assets/Scenes/Piaf_B.unity
+    guid: d2973839ca335c94681fee25fce0a2ff
+  - enabled: 1
+    path: Assets/Scenes/Piaf_BN.unity
+    guid: 06cae9ef039d1f246b3ebafbe374f11d
+  - enabled: 1
+    path: Assets/Scenes/Piaf_M.unity
+    guid: 2c5b28037b6a2d24ebdbe835df6b83fe
+  - enabled: 1
+    path: Assets/Scenes/Piaf_MN.unity
+    guid: cd0e11eacf795fc4c93c5be5b9b6306d
+  - enabled: 1
+    path: Assets/Scenes/Piaf_S.unity
+    guid: cad10fe0c73fd634bb0b0aa05f974a4b
+  - enabled: 1
+    path: Assets/Scenes/Piaf_SN.unity
+    guid: 5fa1fb554327339438168282e605b9f9
+  - enabled: 1
+    path: Assets/Scenes/Piaf_SM.unity
+    guid: 1e063e683267bb548b8ec98e7a4414bd
+  - enabled: 1
+    path: Assets/Scenes/Piaf_SMN.unity
+    guid: 4823f6aa0de60c242bdb67a76dbb45e1
+  - enabled: 1
+    path: Assets/Scenes/Questionnary.unity
+    guid: 5c1160751adbf01468cfaf181ebe2a41
+  - enabled: 1
+    path: Assets/Scenes/Questionnary_2.unity
+    guid: 19392e1f208a61446b157a59698de039
+  - enabled: 1
+    path: "Assets/Scenes/Moiti\xE9.unity"
+    guid: 89ae3d5beec590f429610609cd11b87c
+  - enabled: 1
+    path: Assets/Scenes/Pause.unity
+    guid: f0ac15cc4a71edf429c67aef834eb4f2
+  - enabled: 1
+    path: Assets/Scenes/Fin.unity
+    guid: 5e04b8656debc0546bd9e983fcc3330d
+  m_configObjects: {}
