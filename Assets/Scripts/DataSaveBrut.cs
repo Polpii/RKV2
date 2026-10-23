@@ -27,7 +27,7 @@ public class DataSaveBrut : MonoBehaviour
     void InitializeVariables()
     {
         userName = PlayerPrefs.GetString("PatientNom") + "_" + PlayerPrefs.GetString("PatientPrenom")[0];
-        rawFilePath = @"C:\Users\paul-\UnityProject\RK_V2\Assets\Results\" + userName + "\\" + userName + "_Brut.txt";
+        rawFilePath = Path.Combine(Application.dataPath, "Results", userName, userName + "_Brut.txt");
         dataBrutBuffer = new List<string>();
         sensibility = 0.66f;
         timeStamp = 0;

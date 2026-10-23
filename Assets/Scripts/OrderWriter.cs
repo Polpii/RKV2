@@ -6,7 +6,7 @@ using Random = System.Random;
 
 public class OrderWriter : MonoBehaviour
 {
-    private static readonly string path = "C:\\Users\\paul-\\UnityProject\\RK_V2\\Assets\\Order.txt";
+    private static string path => Path.Combine(Application.dataPath, "Order.txt");
     /*private static readonly List<string> initialItems = new List<string>
     {
         "PatientInfo", "Consignes", "Consignes2", "Consignes3", "Conseils",

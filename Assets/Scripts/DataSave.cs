@@ -212,7 +212,7 @@ public class DataSave : MonoBehaviour
     void InitializeVariables()
     {
         userName = PlayerPrefs.GetString("PatientNom") + "_" + PlayerPrefs.GetString("PatientPrenom")[0];
-        filePath = @"C:\Users\paul-\UnityProject\RK_V2\Assets\Results\" + userName + "\\" + userName + ".csv";
+        filePath = System.IO.Path.Combine(Application.dataPath, "Results", userName, userName + ".csv");
         sensibility = 0.66f;
         DM_Pressed = false;
         dataBuffer = new List<string>();

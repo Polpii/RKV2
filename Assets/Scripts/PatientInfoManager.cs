@@ -77,8 +77,8 @@ public class PatientInfoManager : MonoBehaviour
     void InitializeVariables()
     {
         userName = PlayerPrefs.GetString("PatientNom") + "_" + PlayerPrefs.GetString("PatientPrenom")[0];
-        var folder = Directory.CreateDirectory(@"C:\Users\paul-\UnityProject\RK_V2\Assets\Results\" + userName);
-        filePath = @"C:\Users\paul-\UnityProject\RK_V2\Assets\Results\" + userName + "\\" + userName + ".csv";
+        var folder = Directory.CreateDirectory(Path.Combine(Application.dataPath, "Results", userName));
+        filePath = Path.Combine(Application.dataPath, "Results", userName, userName + ".csv");
         /*sensibility = GameObject.Find("GameManager").GetComponent<RK_controller>().sensibility;*/
         dataBuffer = new List<string>();
     }

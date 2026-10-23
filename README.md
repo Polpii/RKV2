@@ -17,18 +17,20 @@ Paper: *A Novel Method for Synchronized Rhythmic Production of Finger Movements 
 
 - Unity **2021.3.8f1**
 - Windows (the sensor driver `DAQMANIPULANDUM.dll` is Windows only)
+- The **NI-DAQmx** driver from National Instruments (the sensor DLL uses it)
 - A Dextrain Manipulandum plugged in by USB
 - FMOD for Unity (already in `Assets/Plugins/FMOD`)
 - Python 3 with numpy, pandas, scipy, statsmodels, matplotlib, seaborn, pingouin (only for the analysis)
 
 ## How to run
 
-1. Clone the repo and open the folder with Unity Hub (Unity 2021.3.8f1).
-2. Some paths are written directly in the code and point to `C:\Users\paul-\UnityProject\RK_V2\`. Change them to your own folder:
-   - `Assets/GameManager.cs` (path to `Order.txt`)
-   - `Assets/Scripts/OrderWriter.cs`
-   - `Assets/Scripts/PatientInfoManager.cs` (results folder)
+1. Install the NI-DAQmx driver and plug in the Manipulandum.
+2. Clone the repo and open the folder with Unity Hub (Unity 2021.3.8f1). The first opening takes a few minutes.
 3. Open `Assets/Scenes/PageAcceuil.unity` and press Play.
+
+All paths are relative to the `Assets` folder, so the project works wherever you clone it. Run it from the Unity editor: the files it reads and writes (`Order.txt`, `Results/`) are inside `Assets`.
+
+FMOD may show a warning that it can't find the FMOD Studio project. You can ignore it, the songs are played with Unity audio.
 
 ## What happens in a session
 

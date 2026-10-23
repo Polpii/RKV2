@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
 
     private void LoadTasks()
     {
-        string path = "C:\\Users\\paul-\\UnityProject\\RK_V2\\Assets\\Order.txt";
+        string path = Path.Combine(Application.dataPath, "Order.txt");
         taskOrder = new List<string>();
 
         // Lire chaque ligne du fichier

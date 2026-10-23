@@ -5,8 +5,9 @@ import matplotlib.pyplot as plt
 
 # Configuration initiale
 names = ["21_X"]
-results_folder = "C:\\Users\\paul-\\UnityProject\\RK_V2\\Assets\\Results\\"
-timestamps_folder = "C:\\Users\\paul-\\UnityProject\\RK_V2\\Assets\\Timestamps\\"
+assets_folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+results_folder = os.path.join(assets_folder, "Results") + os.sep
+timestamps_folder = os.path.join(assets_folder, "Timestamps") + os.sep
 outlier_percent = 15
 
 def read_reference_timestamps(task_name):

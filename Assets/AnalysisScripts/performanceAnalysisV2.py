@@ -6,8 +6,9 @@ import matplotlib.pyplot as plt
 # Configuration initiale
 names = ["ED001_E", "PavelTestP_P", "21_X", "AA002_A", "RT003_R", "QL004_Q", "IJ006_I"]
 #names = ["IJ006_I"]
-results_folder = "C:\\Users\\paul-\\UnityProject\\RK_V2\\Assets\\Results\\"
-timestamps_folder = "C:\\Users\\paul-\\UnityProject\\RK_V2\\Assets\\Timestamps\\"
+assets_folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+results_folder = os.path.join(assets_folder, "Results") + os.sep
+timestamps_folder = os.path.join(assets_folder, "Timestamps") + os.sep
 outlier_percent = 15
 
 def plot_first_task(df, name="Balou_SN"):
